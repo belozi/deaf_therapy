@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: deaf_therapy_dev
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: deaf_therapy_test
+  pool: 5
+  
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: deaf_therapy_prod
+  pool: 5
