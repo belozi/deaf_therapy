@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   devise_for :users
   resources :users
 
+=======
+>>>>>>> 37d4337d02987e5a15bdef7f3e8e9e88ade1b821
   resources :mood_forms
 
   root to: "home#index"
