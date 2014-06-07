@@ -37,7 +37,7 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-gem 'better_errors'#, git:"https://github.com/charliesome/better_errors.git"
-gem 'binding_of_caller', :platforms=>[:mri_19]
-  
+group :development do
+  gem 'better_errors'#, git:"https://github.com/charliesome/better_errors.git"
+  gem 'binding_of_caller', :platforms=>[:mri_19]
+end
