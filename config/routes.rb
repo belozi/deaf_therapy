@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'home/index'
+  get 'mood_forms/index'
+
 
   devise_for :users
   resources :users
