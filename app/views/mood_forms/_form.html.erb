@@ -12,8 +12,14 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :mood %><br>
-    <%= f.number_field :mood %>
+    
+    <%= f.collection_radio_buttons :mood, [
+            [ 1 , 'Great'],
+            [ 2 , 'Good'],
+            [ 3 , 'Meh'],
+            [ 4 , 'Down'],
+            [ 5, 'Depressed']],  :first, :last  %>
+  
   </div>
   <div class="field">
     <%= f.label :comment %><br>

@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+# Database gem
+gem 'execjs', '1.2.4'
+gem 'sqlite3', '1.3.8'
 gem 'tzinfo-data'
 #simple form with bootstrap
 gem 'simple_form'

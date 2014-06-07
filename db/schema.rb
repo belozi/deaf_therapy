@@ -11,9 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140607191141) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  create_table "mood_forms", force: true do |t|
+    t.integer  "mood"
+    t.text     "comment"
+    t.boolean  "panic"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "age"
+    t.string   "street_address"
+    t.string   "city"
+    t.string   "state"
+    t.integer  "zip"
+    t.integer  "phone"
+    t.string   "therapist"
+    t.string   "therapist_email"
+    t.integer  "therapist_phone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
