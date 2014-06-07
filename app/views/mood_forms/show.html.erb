@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Mood:</strong>
+  <%= @mood_form.mood %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @mood_form.comment %>
+</p>
+
+<p>
+  <strong>Panic:</strong>
+  <%= @mood_form.panic %>
+</p>
+
+<%= link_to 'Edit', edit_mood_form_path(@mood_form) %> |
+<%= link_to 'Back', mood_forms_path %>

@@ -1,0 +1,2 @@
+module MoodFormsHelper
+end

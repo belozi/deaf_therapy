@@ -1,0 +1,29 @@
+<h1>Listing mood_forms</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mood</th>
+      <th>Comment</th>
+      <th>Panic</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mood_forms.each do |mood_form| %>
+      <tr>
+        <td><%= mood_form.mood %></td>
+        <td><%= mood_form.comment %></td>
+        <td><%= mood_form.panic %></td>
+        <td><%= link_to 'Show', mood_form %></td>
+        <td><%= link_to 'Edit', edit_mood_form_path(mood_form) %></td>
+        <td><%= link_to 'Destroy', mood_form, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mood form', new_mood_form_path %>

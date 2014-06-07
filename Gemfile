@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'tzinfo-data'
 #simple form with bootstrap
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
