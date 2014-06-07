@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :users
-
   resources :mood_forms
 
   # The priority is based upon order of creation: first created -> highest priority.
