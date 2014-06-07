@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#devise for authentication
+gem 'devise'
+
 gem 'tzinfo-data'
 #simple form with bootstrap
 gem 'simple_form'
