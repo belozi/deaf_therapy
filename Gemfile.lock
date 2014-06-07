@@ -81,14 +81,11 @@ GEM
     mime-types (1.25.1)
     minitest (5.3.4)
     multi_json (1.10.1)
-<<<<<<< HEAD
+    orm_adapter (0.5.0)
     pg (0.15.1)
     pg (0.15.1-x86-mingw32)
-=======
-    orm_adapter (0.5.0)
     pg (0.17.1)
     pg (0.17.1-x86-mingw32)
->>>>>>> 8d086297884c1b4d5ce3c97310ab14c44bafd171
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -165,11 +162,8 @@ DEPENDENCIES
   binding_of_caller
   bootstrap-sass (= 2.3.2.0)
   coffee-rails (~> 4.0.0)
-<<<<<<< HEAD
-  execjs (= 1.2.4)
-=======
   devise
->>>>>>> 8d086297884c1b4d5ce3c97310ab14c44bafd171
+  execjs (= 1.2.4)
   jbuilder (~> 2.0)
   jquery-rails
   pg

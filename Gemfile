@@ -1,16 +1,13 @@
 source 'https://rubygems.org'
 
-<<<<<<< HEAD
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 # Database gem
 gem 'execjs', '1.2.4'
 gem 'sqlite3', '1.3.8'
-=======
 #devise for authentication
 gem 'devise'
 
->>>>>>> 8d086297884c1b4d5ce3c97310ab14c44bafd171
 gem 'tzinfo-data'
 #simple form with bootstrap
 gem 'simple_form'
